@@ -13,7 +13,7 @@ export default function Projects() {
       title: 'Zoo Application',
       description: 'A server-rendered web application built to manage and display zoo information using dynamic pug templates for fast content delivery.',
       tech: ['Express.js', 'Pug', 'Node.js'],
-      link: 'https://zoo-crod.onrender.com/',
+      link: 'https://zoo-park.onrender.com/',
       github: 'https://github.com/ClassicRishi/zoo'
     },
     {
