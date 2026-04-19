@@ -14,7 +14,7 @@ export default function Projects() {
       description: 'A server-rendered web application built to manage and display zoo information using dynamic pug templates for fast content delivery.',
       tech: ['Express.js', 'Pug', 'Node.js'],
       link: 'https://zoo-park.onrender.com/',
-      github: 'https://github.com/ClassicRishi/zoo'
+      github: 'https://github.com/ClassicRishi/zoo-park'
     },
     {
       title: 'Nassau Candy Distributor Analytics',

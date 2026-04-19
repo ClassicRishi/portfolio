@@ -4,10 +4,12 @@ export default function Skills() {
   const skills = [
     { name: 'Python', level: 95 },
     { name: 'SQL for Business Intelligence', level: 90 },
-    { name: 'Streamlit (Dashboard Dev)', level: 85 },
+    { name: 'Streamlit (Dashboard Dev)', level: 75 },
     { name: 'Elasticsearch & Kibana', level: 80 },
-    { name: 'Data Visualization', level: 85 },
-    { name: 'Docker', level: 80 }
+    { name: 'Data Visualization', level: 90 },
+    { name: 'Docker', level: 70 },
+    { name: 'Metabase', level: 70 },
+    { name: 'Grafana', level: 70 }
   ];
 
   return (
