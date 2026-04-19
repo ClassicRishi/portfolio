@@ -1,0 +1,56 @@
+.metabaseSection {
+  padding: 8rem 0;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin-bottom: 2.5rem;
+}
+
+.sectionTitle {
+  font-size: clamp(2rem, 4vw, 3rem);
+  white-space: nowrap;
+}
+
+.line {
+  height: 1px;
+  background: var(--glass-border);
+  width: 100%;
+}
+
+.sampleCard {
+  background: var(--glass-bg);
+  border: 1px solid var(--glass-border);
+  border-radius: 20px;
+  padding: 2rem;
+  max-width: 560px;
+}
+
+.sampleCard h3 {
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+}
+
+.sampleText {
+  margin-bottom: 1.5rem;
+  color: var(--text-secondary);
+  line-height: 1.75;
+}
+
+.pdfLink {
+  display: inline-block;
+  padding: 0.95rem 1.4rem;
+  border-radius: 14px;
+  background: linear-gradient(90deg, var(--secondary-blue), var(--accent-cyan));
+  color: white;
+  font-weight: 700;
+  text-decoration: none;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.pdfLink:hover {
+  transform: translateY(-1px);
+  opacity: 0.95;
+}

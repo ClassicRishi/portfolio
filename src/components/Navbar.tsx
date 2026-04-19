@@ -1,5 +1,5 @@
 'use client';
-import { useState, useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import styles from './Navbar.module.css';
 
 export default function Navbar() {
@@ -21,6 +21,7 @@ export default function Navbar() {
       <ul className={styles.navLinks}>
         <li><a href="#about">About</a></li>
         <li><a href="#skills">Skills</a></li>
+        <li><a href="#metabase-dashboards">Metabase</a></li>
         <li><a href="#internships">Internships</a></li>
         <li><a href="#projects">Projects</a></li>
         <li><a href="#certifications">Certifications</a></li>
