@@ -10,7 +10,7 @@ export default function About() {
           </h2>
           <div className={styles.line}></div>
         </div>
-        
+
         <div className={styles.content}>
           <div className={styles.textContainer}>
             <p className={styles.text}>
@@ -18,6 +18,9 @@ export default function About() {
             </p>
             <p className={styles.text}>
               My expertise spans Python, SQL for Business Intelligence, and building real-time dashboards using tools like Streamlit, Elasticsearch, and Kibana. I love solving complex data problems and extracting actionable insights.
+            </p>
+            <p className={styles.text}>
+              Iam also passionate about web developement. I build web applications that balance scalable engineering with intuitive design. My focus is on creating modular, polished solutions—whether it’s authentication flows, dashboards, or advanced UI components—that empower businesses and delight users.
             </p>
 
           </div>

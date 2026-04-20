@@ -7,10 +7,10 @@ export default function Hero() {
         <p className={styles.greeting}>Hi, I am</p>
         <h1 className={styles.title}>
           A Passionate <br />
-          <span className="gradient-text">Software Engineer</span>
+          <span className="gradient-text">Data Analyst</span>
         </h1>
         <p className={styles.subtitle}>
-          I build beautiful, responsive, and high-performance web applications using modern technologies.
+          I build beautiful, responsive dashboards using Metabase.And i prefer Grafana for time based series datasets.
         </p>
         <div className={styles.actions}>
           <a href="#projects" className="glass-btn-primary class-btn" style={{ padding: '14px 28px', borderRadius: '8px', fontWeight: 'bold' }}>
@@ -36,7 +36,7 @@ export default function Hero() {
               <div className={styles.line} style={{ width: '70%' }}></div>
               <div className={styles.line} style={{ width: '50%' }}></div>
               <div className={styles.codeBlock}>
-                <code>{`const developer = {\n  name: 'K. Rishi Vardhan',\n  skills: ['Python', 'SQL', 'Streamlit'],\n  passion: 'Building real-time dashboards!'\n};`}</code>
+                <code>{`const developer = {\n  name: 'K. Rishi Vardhan',\n  skills: ['Python', 'SQL', 'Streamlit', 'Metabase', 'Grafana', 'Kibana' ],\n  passion: 'Building real-time dashboards!'\n};`}</code>
               </div>
             </div>
           </div>

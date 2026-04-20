@@ -9,7 +9,8 @@ export default function Skills() {
     { name: 'Data Visualization', level: 90 },
     { name: 'Docker', level: 70 },
     { name: 'Metabase', level: 70 },
-    { name: 'Grafana', level: 70 }
+    { name: 'Grafana', level: 70 },
+    { name: 'Open Refine', level: 70 }
   ];
 
   return (
@@ -29,8 +30,8 @@ export default function Skills() {
               <span className={styles.skillLevel}>{skill.level}%</span>
             </div>
             <div className={styles.progressBar}>
-              <div 
-                className={styles.progressFill} 
+              <div
+                className={styles.progressFill}
                 style={{ width: `${skill.level}%` }}
               ></div>
             </div>

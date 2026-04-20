@@ -20,6 +20,19 @@
   width: 100%;
 }
 
+.cardsGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+@media (max-width: 768px) {
+  .cardsGrid {
+    grid-template-columns: 1fr;
+  }
+}
+
 .sampleCard {
   background: var(--glass-bg);
   border: 1px solid var(--glass-border);

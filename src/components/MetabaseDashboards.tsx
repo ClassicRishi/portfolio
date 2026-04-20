@@ -1,11 +1,18 @@
 import styles from './MetabaseDashboards.module.css';
 
 export default function MetabaseDashboards() {
-  const samplePdf = {
-    title: '🐼 zoo-dashboard',
-    description: 'A Dashboard for a Zoo Application built using Metabase, showcasing key metrics and insights related to zoo operations, animal care, and visitor engagement on real time user transactional data',
-    url: 'https://drive.google.com/file/d/19l63VGj2gHEDZ69aid0tb7k3TuSnvvKJ/view?usp=sharing'
-  };
+  const samplePdf = [
+    {
+      title: '🐼 zoo-dashboard',
+      description: 'A Dashboard for a Zoo Application built using Metabase, showcasing key metrics and insights related to zoo operations, animal care, and visitor engagement on real time user transactional data',
+      url: 'https://drive.google.com/file/d/19l63VGj2gHEDZ69aid0tb7k3TuSnvvKJ/view?usp=sharing'
+    },
+    {
+      title: '🍬 Nasau-Distributor-Dashboard',
+      description: 'A Distributor dashboard eqipped with popular KPIs like Shiping route efficiency, Delay Analysis, Normalized lead performance, Average route volume and users can able to filter the data based on time range',
+      url: 'https://drive.google.com/file/d/12-UM_RT35w2HZAcKk1kdeoA-A22ENCsp/view?usp=sharing'
+    }
+  ];
 
   return (
     <section className={styles.metabaseSection} id="metabase-dashboards">
@@ -16,17 +23,21 @@ export default function MetabaseDashboards() {
         </h2>
       </div>
 
-      <div className={styles.sampleCard}>
-        <h3>{samplePdf.title}</h3>
-        <p className={styles.sampleText}>{samplePdf.description}</p>
-        <a
-          href={samplePdf.url}
-          target="_blank"
-          rel="noopener noreferrer"
-          className={styles.pdfLink}
-        >
-          {samplePdf.title}
-        </a>
+      <div className={styles.cardsGrid}>
+        {samplePdf.map((pdf, index) => (
+          <div className={styles.sampleCard} key={index}>
+            <h3>{pdf.title}</h3>
+            <p className={styles.sampleText}>{pdf.description}</p>
+            <a
+              href={pdf.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className={styles.pdfLink}
+            >
+              {pdf.title}
+            </a>
+          </div>
+        ))}
       </div>
     </section>
   );
