@@ -3,25 +3,32 @@ import styles from './Projects.module.css';
 export default function Projects() {
   const projects = [
     {
-      title: 'Vehicle Assistance',
+      title: '🚗 Vehicle Assistance',
       description: 'A comprehensive platform for vehicular assistance. Features a full-stack architecture to seamlessly connect users with service providers.',
       tech: ['React.js', 'Express.js', 'MongoDB', 'HTML/CSS/JS'],
       link: 'https://vehicle-assistance-1.onrender.com/',
       github: 'https://github.com/ClassicRishi/vehicle-assistance'
     },
     {
-      title: 'Zoo Application',
+      title: '🐼 Zoo Application',
       description: 'A server-rendered web application built to manage and display zoo information using dynamic pug templates for fast content delivery.',
       tech: ['Express.js', 'Pug', 'Node.js'],
       link: 'https://zoo-park.onrender.com/',
       github: 'https://github.com/ClassicRishi/zoo-park'
     },
     {
-      title: 'Nassau Candy Distributor Analytics',
+      title: '🍬 Nassau Candy Distributor Analytics',
       description: 'A powerful business intelligence dashboard that visualizes analytics and key metrics using a Python-based web framework.',
       tech: ['Python', 'Streamlit', 'Data Analytics'],
       link: 'https://nasaucandydistributor-ceystnedit3zucxjdgxmpt.streamlit.app',
       github: 'https://github.com/ClassicRishi/nasau_candy_distributor'
+    },
+    {
+      title: '📡 Predictive Maintenance Analytics on 6G integrated System',
+      description: 'A powerful business intelligence dashboard that visualize powerconsumption, efficiency of machines, downtime prevention index using plotly in python.',
+      tech: ['Python-Pandas', 'Streamlit', 'Data Analytics', 'Plotly'],
+      link: 'https://predictive-analytics-anomaly-detection.streamlit.app/',
+      github: 'https://github.com/ClassicRishi/predictive-manufacturer-analytics'
     }
   ];
 
