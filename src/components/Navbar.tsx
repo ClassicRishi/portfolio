@@ -23,6 +23,7 @@ export default function Navbar() {
         <li><a href="#skills">Skills</a></li>
         <li><a href="#metabase-dashboards">Metabase</a></li>
         <li><a href="#internships">Internships</a></li>
+        <li><a href="#hackathons">Hackathons</a></li>
         <li><a href="#projects">Projects</a></li>
         <li><a href="#certifications">Certifications</a></li>
         <li><a href="#contact" className="glass-btn">Contact Me</a></li>

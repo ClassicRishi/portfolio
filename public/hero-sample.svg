@@ -1,0 +1,23 @@
+<svg width="800" height="600" viewBox="0 0 800 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGradient" x1="0" y1="0" x2="800" y2="600" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#1e293b" />
+    </linearGradient>
+    <linearGradient id="circleGradient" x1="0" y1="0" x2="600" y2="600" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#7dd3fc" stop-opacity="0.2" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" rx="40" fill="url(#bgGradient)" />
+  <circle cx="220" cy="180" r="110" fill="url(#circleGradient)" />
+  <circle cx="560" cy="210" r="90" fill="#1e293b" opacity="0.8" />
+  <rect x="100" y="360" width="180" height="180" rx="32" fill="#0f172a" stroke="#38bdf8" stroke-width="4" />
+  <rect x="520" y="340" width="220" height="220" rx="32" fill="#0f172a" stroke="#38bdf8" stroke-width="4" />
+  <path d="M260 280C280 250 330 220 380 250C430 280 480 250 510 210" stroke="#ffffff" stroke-width="3" stroke-linecap="round" />
+  <path d="M220 410H580" stroke="#ffffff" stroke-width="4" stroke-linecap="round" />
+  <path d="M280 450H520" stroke="#ffffff" stroke-width="4" stroke-linecap="round" />
+  <path d="M280 500H520" stroke="#7dd3fc" stroke-width="6" stroke-linecap="round" />
+  <text x="400" y="460" text-anchor="middle" fill="#ffffff" font-family="Inter, sans-serif" font-size="32" font-weight="700">Data dashboards</text>
+  <text x="400" y="510" text-anchor="middle" fill="#94a3b8" font-family="Inter, sans-serif" font-size="18">with insight, speed, and clarity</text>
+</svg>

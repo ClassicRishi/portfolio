@@ -2,6 +2,7 @@ import About from '@/components/About';
 import Certifications from '@/components/Certifications';
 import Contact from '@/components/Contact';
 import Footer from '@/components/Footer';
+import Hackathon from '@/components/Hackathon';
 import Hero from '@/components/Hero';
 import Internships from '@/components/Internships';
 import MetabaseDashboards from '@/components/MetabaseDashboards';
@@ -20,6 +21,7 @@ export default function Home() {
         <Skills />
         <MetabaseDashboards />
         <Internships />
+        <Hackathon />
         <Projects />
         <Certifications />
         <Contact />
