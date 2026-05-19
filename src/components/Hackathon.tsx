@@ -2,7 +2,7 @@ import styles from './Hackathon.module.css';
 
 const hackathons = [
   {
-    event: 'Potenza 2k24',
+    event: 'Potenza 2k26',
     college: 'Siddhartha Educational Academy',
     department: 'Computer Science and Engineering',
     project: 'Smart Road Side Vehicle Assistance',

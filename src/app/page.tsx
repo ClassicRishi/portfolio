@@ -16,7 +16,6 @@ export default function Home() {
     <main className={styles.main}>
       <Navbar />
       <div className={styles.container}>
-        <Hero />
         <About />
         <Skills />
         <MetabaseDashboards />

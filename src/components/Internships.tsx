@@ -3,10 +3,16 @@ import styles from './Internships.module.css';
 export default function Internships() {
   const internships = [
     {
-      role: 'Full Stack Developer Intern',
+      role: 'Full Stack Developer Internship',
       duration: '1 Month',
       project: 'Roadside Vehicle Assistance',
       certificateLink: 'https://drive.google.com/file/d/1_P9bGHrnkEEv0BgFipieqGZvsx_9Xl9Z/view'
+    },
+    {
+      role: 'Data Analyst Internship',
+      duration: '3 Month',
+      project: 'Predictive Analysis and Anomaly Detection',
+      certificateLink: 'https://drive.google.com/file/d/1ZIKcwugMgu2uCGUFV2zcRV3rlW3uRsc7/view'
     }
   ];
 
